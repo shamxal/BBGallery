@@ -1,14 +1,13 @@
 //
-//  BBViewController.h
+//  BBGallery.h
 //  BBGallery
 //
 //  Created by Sham X ALL on 13.11.2013.
 //  Copyright (c) 2013 Betik Bilisim. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import "Sorgu.h"
+#import <Foundation/Foundation.h>
 
-@interface BBViewController : UIViewController <SorguDelegate>
+@interface BBGallery : NSObject
 
 @end
